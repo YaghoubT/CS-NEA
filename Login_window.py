@@ -3,13 +3,11 @@ from tkinter import messagebox
 from main_window import open_main_window
 
 def authenticate_admin(username, password):
-    # Replace this with your actual admin authentication logic
     valid_username = "admin"
     valid_password = "admin123"
     return username == valid_username and password == valid_password
 
 def authenticate_employee(username, password):
-    # Replace this with your actual employee authentication logic
     valid_username = "employee"
     valid_password = "employee123"
     return username == valid_username and password == valid_password
